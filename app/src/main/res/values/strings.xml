@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Práctica 6 PMDM</string>
-    <string name="activityContactos">Contactos</string>
-    <string name="activityBloc">Bloc de Notas</string>
+    <string name="contactos">Contactos</string>
+    <string name="bloc">Bloc de Notas</string>
 </resources>

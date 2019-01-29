@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Notepad"
-            android:label="@string/activityBloc"></activity>
+            android:label="@string/bloc"></activity>
         <activity android:name=".Contactos"
-            android:label="@string/activityContactos"/>
+            android:label="@string/contactos"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
