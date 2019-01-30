@@ -9,22 +9,23 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    Intent intent1, intent2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        intent1 = new Intent(this, Contactos.class);
+        intent2 = new Intent(this, Notepad.class);
 
     }
 
     public void clickPersona(View view1) {
-        Intent intent1 = new Intent(view1.getContext(), Contactos.class);
-        startActivityForResult(intent1, 0);
+        startActivity(intent1);
     }
 
     public void clickBloc(View view2) {
-        Intent intent2 = new Intent(view2.getContext(), Notepad.class);
-        startActivityForResult(intent2, 0);
+        startActivity(intent2);
     }
 
     @Override
@@ -37,13 +38,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch (item.getItemId()) {
+        switch (item.getItemId())
+        {
             case R.id.Contactos:
-                Intent intent1 = new Intent(this, Contactos.class);
                 startActivity(intent1);
                 break;
             case R.id.Notepad:
-                Intent intent2 = new Intent(this, Notepad.class);
                 startActivity(intent2);
                 break;
         }
