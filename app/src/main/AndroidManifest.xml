@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Notepad"
-            android:label="@string/bloc"></activity>
-        <activity android:name=".Contactos"
-            android:label="@string/contactos"/>
+        <activity android:name=".Edicion"></activity>
+        <activity
+            android:name=".Notepad"
+            android:label="@string/bloc" />
+        <activity
+            android:name=".Contactos"
+            android:label="@string/contactos" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
