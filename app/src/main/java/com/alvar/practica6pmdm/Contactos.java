@@ -105,7 +105,7 @@ public class Contactos extends AppCompatActivity {
                 cadena = prefs.getString(telefono, null);
                 if(cadena==null)
                 {
-                    Toast.makeText(this, "No existe un teléfono asociado a este contacto", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "No existe un teléfono asociado a este contacto",  Toast.LENGTH_LONG).show();
                 }
                 else {
                     if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
