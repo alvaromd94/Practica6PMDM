@@ -9,5 +9,6 @@
     <string name="seleccionar">SELECCIONE UNA IMAGEN PARA EDITAR EL CONTACTO</string>
     <string name="txtTelefono">Introduzca un número de teléfono</string>
     <string name="txtCorreo">Introduzca un e-mail</string>
-    <string name="btnEditar">Editar</string>
+    <string name="btnEditar">Guardar</string>
+    <string name="datosCorrectos">Contacto editado de forma correcta</string>
 </resources>

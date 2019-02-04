@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,6 +24,7 @@ import static android.Manifest.permission.CALL_PHONE;
 public class Contactos extends AppCompatActivity {
     ImageView imageView, imageView2, imageView3, imageView4, imageView5, imageView6;
     String correo, telefono, cadena;
+
     SharedPreferences prefs;
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -96,6 +99,8 @@ public class Contactos extends AppCompatActivity {
         super.onCreateContextMenu(menu, v, menuInfo);
         getMenuInflater().inflate(R.menu.menu_contactos, menu);
     }
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
     public boolean onContextItemSelected(MenuItem item) {
 
         prefs = getSharedPreferences("fichero_configuracion", Context.MODE_PRIVATE);
@@ -106,12 +111,17 @@ public class Contactos extends AppCompatActivity {
                 {
                     Toast.makeText(this, "No existe un teléfono asociado a este contacto",  Toast.LENGTH_LONG).show();
                 }
-                else {
-                    if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+                else
+                {
+                    if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED)
+                    {
+
                         Intent callIntent = new Intent(Intent.ACTION_CALL);
                         callIntent.setData(Uri.parse("tel:" + cadena));
                         startActivity(callIntent);
-                    } else {
+                    }
+                    else
+                    {
                         requestPermissions(new String[]{CALL_PHONE}, 1);
                     }
                 }
