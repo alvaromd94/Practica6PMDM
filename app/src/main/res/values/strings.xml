@@ -11,4 +11,6 @@
     <string name="txtCorreo">Introduzca un e-mail</string>
     <string name="btnEditar">Guardar</string>
     <string name="datosCorrectos">Contacto editado de forma correcta</string>
+    <string name="noTelefono">No existe un teléfono asociado a este contacto</string>
+    <string name="noCorreo">No existe un correo asociado a este contacto</string>
 </resources>

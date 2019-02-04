@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Práctica 6 PMDM</string>
+    <string name="contactos">Contacts</string>
+    <string name="bloc">Notepad</string>
+    <string name="activity_editar">Edit Contacts</string>
+    <string name="llamar">Call</string>
+    <string name="correo">E-mail</string>
+    <string name="editar">Edit</string>
+    <string name="seleccionar">SELECT AN IMAGE TO EDIT THE CONTACT</string>
+    <string name="txtTelefono">Enter a phone number</string>
+    <string name="txtCorreo">Enter an e-mail</string>
+    <string name="btnEditar">Save</string>
+    <string name="datosCorrectos">Contact edited correctly</string>
+    <string name="noTelefono">There is no phone associated with this contact</string>
+    <string name="noCorreo">There is no e-mail associated with this contact</string>
+</resources>

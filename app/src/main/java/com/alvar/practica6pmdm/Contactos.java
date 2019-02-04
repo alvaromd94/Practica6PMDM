@@ -109,7 +109,7 @@ public class Contactos extends AppCompatActivity {
                 cadena = prefs.getString(telefono, null);
                 if(cadena==null)
                 {
-                    Toast.makeText(this, "No existe un teléfono asociado a este contacto",  Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, getString(R.string.noTelefono),  Toast.LENGTH_LONG).show();
                 }
                 else
                 {
@@ -130,7 +130,7 @@ public class Contactos extends AppCompatActivity {
                 cadena = prefs.getString(correo, null);
                 if(cadena==null)
                 {
-                    Toast.makeText(this, "No existe un correo asociado a este contacto", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, getString(R.string.noCorreo), Toast.LENGTH_LONG).show();
                 }
                 else
                 {
