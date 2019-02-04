@@ -6,4 +6,8 @@
     <string name="llamar">Llamar</string>
     <string name="correo">Correo</string>
     <string name="editar">Editar</string>
+    <string name="seleccionar">SELECCIONE UNA IMAGEN PARA EDITAR EL CONTACTO</string>
+    <string name="txtTelefono">Introduzca un número de teléfono</string>
+    <string name="txtCorreo">Introduzca un e-mail</string>
+    <string name="btnEditar">Editar</string>
 </resources>

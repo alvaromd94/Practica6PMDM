@@ -91,7 +91,6 @@ public class Contactos extends AppCompatActivity {
                 return false;
             }
         });
-
     }
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
@@ -134,7 +133,6 @@ public class Contactos extends AppCompatActivity {
         }
         return super.onContextItemSelected(item);
     }
-
     @SuppressLint("RestrictedApi")
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -148,5 +146,4 @@ public class Contactos extends AppCompatActivity {
         startActivity(intent2);
         return false;
     }
-
 }
