@@ -2,6 +2,7 @@
     <string name="app_name">Práctica 6 PMDM</string>
     <string name="contactos">Contactos</string>
     <string name="bloc">Bloc de Notas</string>
+    <string name="activity_editar">Editar Contactos</string>
     <string name="llamar">Llamar</string>
     <string name="correo">Correo</string>
     <string name="editar">Editar</string>

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Edicion"></activity>
+        <activity android:name=".Edicion"
+            android:label="@string/activity_editar"></activity>
         <activity
             android:name=".Notepad"
             android:label="@string/bloc" />
