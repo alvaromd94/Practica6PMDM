@@ -30,8 +30,6 @@ public class Contactos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactos);
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contactos);
          imageView = findViewById(R.id.imageView);
          imageView2 = findViewById(R.id.imageView2);
          imageView3 = findViewById(R.id.imageView3);
@@ -39,16 +37,13 @@ public class Contactos extends AppCompatActivity {
          imageView5 = findViewById(R.id.imageView5);
          imageView6 = findViewById(R.id.imageView6);
 
-
         registerForContextMenu(imageView);
         registerForContextMenu(imageView2);
         registerForContextMenu(imageView3);
         registerForContextMenu(imageView4);
         registerForContextMenu(imageView5);
         registerForContextMenu(imageView6);
-
     }
-
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         getMenuInflater().inflate(R.menu.menu_contactos, menu);
