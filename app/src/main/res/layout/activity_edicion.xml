@@ -30,16 +30,16 @@
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-
             android:layout_weight="1"
+            android:onClick="clickPersona1"
             app:srcCompat="@drawable/persona1" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-
             android:layout_weight="1"
+            android:onClick="clickPersona2"
             app:srcCompat="@drawable/persona2" />
     </LinearLayout>
 
@@ -54,16 +54,16 @@
             android:id="@+id/imageView3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-
             android:layout_weight="1"
+            android:onClick="clickPersona3"
             app:srcCompat="@drawable/persona3" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="100dp"
             android:layout_height="100dp"
-
             android:layout_weight="1"
+            android:onClick="clickPersona4"
             app:srcCompat="@drawable/persona4" />
     </LinearLayout>
 
@@ -80,14 +80,15 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
+            android:onClick="clickPersona5"
             app:srcCompat="@drawable/persona5" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="100dp"
             android:layout_height="100dp"
-
             android:layout_weight="1"
+            android:onClick="clickPersona6"
             app:srcCompat="@drawable/persona6" />
     </LinearLayout>
 
