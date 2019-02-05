@@ -12,7 +12,6 @@ import android.widget.EditText;
 
 public class Notepad extends AppCompatActivity {
 
-
         EditText txtBloc;
         SharedPreferences prefs;
         @Override

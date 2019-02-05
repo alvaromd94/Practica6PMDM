@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         intent1 = new Intent(this, Contactos.class);
         intent2 = new Intent(this, Notepad.class);
-
     }
 
     public void clickPersona(View view1) {
